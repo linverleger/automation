@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ctyles.css">
+</head>
+<body>
+    <h1 style="text-align: center;">welcome to the web</h1>                                   
+    <p>welcome</p>
+
+
+<div id="random">0</div>
+<button onclick="rnd()">random number 0 - 100</button>
+
+<br>
+
+<script>
+    function rnd() {
+        let x=Math.floor(Math.random()*101);
+        sum += x;
+        document.getElementById("random").innerHTML=x;
+        document.getElementById(sum).innerHTML=sum;
+    }
+</script>
+
+<hr>
+<h3 id="lin" mirror input</h3>
+<p>enter text on left and it will appear on right</p>
+<input id="left" type="text" oninput="mirror()">
+<input id="right" type="text">
+
+<script>
+    function mirror() {
+        let leftinput =document.getElementById("left");
+        let rightinput=document.getElementById("right");
+        rightinput.value=leftinput.value;
+    }
+</script>
+
+<button>submit</button>
+
+<br>
+<br>
+
+<div>this page is part of my project <span class="Note"> note:</span>should be tasted with JUnit selenuim</div>
+<div>
+    
+    it denostrate the use of<span class="tech"> Html</span> elements
+    <div>
+        <a href="indexhtml">back to main page </a>
+    </body>
+    </html>
+    <br> 
+    <br>
+    <br>
+    <a href="indx.html"> Back to main page</a>
+    <br>
+    <a href="www.google.co.il">www.google.co.il</a>
+    <br>
+    <a href=""></a>

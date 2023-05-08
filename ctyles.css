@@ -1,0 +1,38 @@
+body{
+    background-color:rgb(207, 234, 241);
+}
+
+input{
+    margin-botton: 5px;
+   
+
+}
+ 
+span.Note{
+    color: red;
+    font-weight: bold;
+}
+
+span.tech{
+    color: blue;
+    font-style:italic: ;
+}
+
+h3#lin {
+    text-decoration:underline;
+}
+legend#l1 { 
+    text-decoration:underline;
+    font-size: x-large;
+}
+h1 {
+    color: blue;
+    text-align:center
+
+} 
+img {
+    width:20%;
+    height:20%;
+    margin-right: 16px;
+    border-radius: 5px;
+}
